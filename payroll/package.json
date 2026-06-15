@@ -6,32 +6,28 @@
     "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start -p 3001",
-    "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "^14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
     "next-auth": "^5.0.0-beta",
-    "decimal.js": "^10",
-    "bull": "^4.10",
-    "typescript": "^5",
+    "decimal.js": "^10.4.3",
+    "bull": "^4.10.4",
     "@magestade/database": "*",
     "@magestade/auth": "*",
     "@magestade/api": "*",
     "@magestade/types": "*",
-    "@magestade/utils": "*",
     "@magestade/payroll-os": "*"
   },
   "devDependencies": {
     "@types/react": "^18",
     "@types/node": "^20",
-    "@types/bull": "^3.15",
-    "tailwindcss": "^3",
-    "autoprefixer": "^10",
-    "postcss": "^8",
-    "eslint": "^8",
-    "eslint-config-next": "^14"
+    "@types/bull": "^3.15.5",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24"
   }
 }
+
