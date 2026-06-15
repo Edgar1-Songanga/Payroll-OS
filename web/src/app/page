@@ -1,1 +1,9 @@
+export default function Home() {
+  return (
+    <main className="p-24">
+      <h1 className="text-4xl font-bold">Welcome to Magestade</h1>
+      <p className="mt-4">Enterprise Workforce Management Platform</p>
+    </main>
+  )
+}
 
